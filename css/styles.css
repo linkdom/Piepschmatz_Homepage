@@ -141,7 +141,12 @@ img {
 
 .showus {
   width: 20%;
-  padding: 0.3%; }
+  padding: 0.3%;
+  transition: transform 0.2s; }
+
+.showus:hover {
+  transform: scale(2);
+  border-radius: 20%; }
 
 .firstrow {
   margin-top: 1%; }
